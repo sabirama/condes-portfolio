@@ -10,6 +10,11 @@ header {
 header img {
   height: 3rem;
 }
+
+nav p {
+  display: none;
+}
+
 nav a {
   padding: 1rem;
 }
@@ -93,11 +98,19 @@ footer ol {
   #contact {
     flex-direction: column;
   }
-  nav {
-    display: flex;
+
+  nav p {
+    display: block;
+  }
+  nav a {
+    display: none;
     flex-direction: column;
     align-self: end;
     text-align: right;
+  }
+
+  nav:hover a {
+    display: flex;
   }
 
   .container {
