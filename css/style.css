@@ -14,6 +14,7 @@ nav a {
   background-color: lightgray;
   padding: 1rem;
   border-radius: 0 2rem 2rem 2rem;
+  min-height: 500px;
 }
 
 #home a {
@@ -41,6 +42,10 @@ nav a {
 #contact-form .mb-3 {
   width: 50%;
   margin: auto;
+}
+
+#exampleFormControlTextarea1 {
+  resize: none;
 }
 
 footer {
@@ -89,6 +94,10 @@ footer ol {
     flex-direction: column;
     align-self: end;
     text-align: right;
+  }
+
+  .container {
+    height: fit-content;
   }
 
   #home {
