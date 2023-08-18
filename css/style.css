@@ -168,10 +168,6 @@ footer ol {
     width: 5rem;
   }
 
-  #projects {
-    margin: 2rem auto;
-  }
-
   .sample-work {
     margin-top: 2rem;
   }
@@ -191,4 +187,7 @@ footer ol {
   .social-links ol {
     display: flex;
   }
+}
+
+@media screen and (max-width: 300px) {
 }
