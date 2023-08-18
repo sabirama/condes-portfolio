@@ -6,17 +6,18 @@
     <title>Contact</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="./images/my-logo.png" type="image/x-icon" />
   </head>
   <body>
     <script src="js/bootstrap.bundle.min.js"></script>
     <header>
-      <div class="d-flex justify-content-between mx-5 my-3">
+      <div class="d-flex justify-content-between mx-5">
         <a href="index.html"
           ><img src="images/my-logo.png" alt="logo" id="logo"
         /></a>
 
         <nav>
-          <p class="text-end"><img src="images/nav.png" alt="" /></p>
+          <img src="images/nav.png" alt="" />
           <a href="index.html">HOME</a>
           <a href="about.html">ABOUT</a>
           <a href="service.html"> SERVICE </a>
@@ -26,37 +27,24 @@
       </div>
     </header>
 
-    <main class="container d-flex flex-column mx-auto my-5" id="contact-form">
-      <div class="mb-3">
+    <main
+      class="container d-flex flex-column mx-auto my-5 align-items-center main"
+      id="contact-form"
+    >
+      <h2 class="mb-4">Do you want to build a website?</h2>
+      <div class="mb-3 form-inputs">
         <label for="Name" class="form-label mt-2">Full Name</label>
-        <input
-          type="text"
-          class="form-control"
-          id="exampleFormControlInput1"
-          placeholder="your name"
-        />
+        <input type="text" class="form-control" placeholder="your name" />
         <label for="Email" class="form-label mt-2">Email address</label>
-        <input
-          type="email"
-          class="form-control"
-          id="exampleFormControlInput2"
-          placeholder="name@example.com"
-        />
+        <input type="email" class="form-control" placeholder="your email" />
       </div>
-      <div class="mb-3">
+      <div class="mb-3 form-inputs">
         <label for="exampleFormControlTextarea1" class="form-label mt-2"
           >Message or Comments</label
         >
-        <textarea
-          class="form-control"
-          id="exampleFormControlTextarea1"
-          rows="3"
-        ></textarea>
+        <textarea class="form-control" rows="3"></textarea>
       </div>
-      <button
-        type="button"
-        class="btn btn-outline-primary align-self-center mb-5"
-      >
+      <button type="button" class="btn btn-dark align-self-center mb-5">
         Submit
       </button>
     </main>
@@ -127,7 +115,7 @@
           <input
             type="email"
             placeholder="Your Email"
-            class="d-block form-label"
+            class="d-block form-label mb-2"
           />
           <button class="d-block w-100 btn btn-outline-light">
             Subscribe to newsletter.

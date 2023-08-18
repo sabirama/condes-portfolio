@@ -6,17 +6,18 @@
     <title>Home</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="./images/my-logo.png" type="image/x-icon" />
   </head>
   <body>
     <script src="js/bootstrap.bundle.min.js"></script>
     <header>
-      <div class="d-flex justify-content-between mx-5 my-3">
+      <div class="d-flex justify-content-between mx-5">
         <a href="index.html"
           ><img src="images/my-logo.png" alt="logo" id="logo"
         /></a>
 
         <nav>
-          <p class="text-end"><img src="images/nav.png" alt="" /></p>
+          <img src="images/nav.png" alt="" class="mb-2" />
           <a href="index.html">HOME</a>
           <a href="about.html">ABOUT</a>
           <a href="service.html"> SERVICE </a>
@@ -26,13 +27,13 @@
       </div>
     </header>
 
-    <main class="container my-5 d-flex" id="home">
-      <div id="home-display">
-        <h1 class="m-5">MARK CONDES</h1>
+    <main class="container my-5 d-flex align-items-center main" id="home">
+      <div id="home-text">
+        <h1 class="my-4 mx-5">MARK CONDES</h1>
 
-        <h2 class="m-5">Web Developer</h2>
+        <h2 class="my-3 mx-5">Web Developer</h2>
 
-        <p class="m-5">
+        <p class="my-2 mx-5">
           Philippine based developer. I am dedicated to bringing ideas to life
           through web development. With a passion for both creativity and
           functionality, I specialize in designing and building user-friendly
@@ -40,12 +41,12 @@
           engaging experiences.
         </p>
 
-        <p class="m-5">Feel free to explore my portfolio!</p>
+        <p class="my-2 mx-5">Feel free to explore my portfolio!</p>
 
-        <a href="about.html" class="btn btn-outline-primary">Get Started</a>
+        <a href="about.html" class="btn btn-dark my-5 mx-5">Get Started</a>
       </div>
 
-      <img src="images/hero-image.png" alt="hero-image" />
+      <img src="images/hero-image.png" alt="hero-image" class="mx-5" />
     </main>
 
     <!-- FOOTER -->
@@ -111,7 +112,7 @@
 
         <form action="submit">
           <p>Newsletter</p>
-          <input type="email" placeholder="Your Email" class="d-block" />
+          <input type="email" placeholder="Your Email" class="d-block mb-2" />
           <button class="d-block w-100 btn btn-outline-light">
             Subscribe to newsletter.
           </button>

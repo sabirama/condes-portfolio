@@ -6,15 +6,18 @@
     <title>Service</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="./images/my-logo.png" type="image/x-icon" />
   </head>
   <body>
     <script src="js/bootstrap.bundle.min.js"></script>
     <header>
-      <div class="d-flex justify-content-between mx-5 my-3">
-        <a href="index.html"><img src="images/my-logo.png" alt="logo" id="logo" /></a>
+      <div class="d-flex justify-content-between mx-5">
+        <a href="index.html"
+          ><img src="images/my-logo.png" alt="logo" id="logo"
+        /></a>
 
         <nav>
-          <p class="text-end"><img src="images/nav.png" alt="" /></p>
+          <img src="images/nav.png" alt="" />
           <a href="index.html">HOME</a>
           <a href="about.html">ABOUT</a>
           <a href="service.html"> SERVICE </a>
@@ -24,60 +27,65 @@
       </div>
     </header>
 
-    <main class="display container my-5 px-5" id="service">
+    <main class="container my-5 p-5 main" id="service">
       <h1 class="mt-5">SERVICE</h1>
 
-      <div class="service-content">
-        <div class="card my-4 p-5" style="width: auto">
-          <img
-            src="images/web-design.png"
-            class="card-img-top mx-auto"
-            alt="web-design"
-          />
-          <div class="card-body">
-            <h5 class="card-title text-center">WEB DESIGN</h5>
-            <hr>
-            <ul>
-              <li>Figma</li>
-              <li>Photoshop</li>
-              <li>Canva</li>
-            </ul>
-            <hr>
-            <p class="card-text">
-              Want to create captivating websites with appealing visuals and
-              good functionality? Let us create an attractive, and effective
-              designs for better online presence and delivers a positive
-              experience.
-            </p>
-            <a href="contact.html" class="btn btn-outline-primary">Send a message</a>
+      <div class="service-content row align-items-stretch">
+        <div class="col-6">
+          <div class="card h-100 my-4 p-5 card-bg">
+            <img
+              src="images/web-design.png"
+              class="card-img-top mx-auto"
+              alt="web-design"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">WEB DESIGN</h5>
+              <hr />
+              <ul tex>
+                <li>Figma</li>
+                <li>Photoshop</li>
+                <li>Canva</li>
+              </ul>
+              <hr />
+              <p class="card-text">
+                Want to create captivating websites with appealing visuals and
+                good functionality? Let us create an attractive, and effective
+                designs for better online presence and delivers a positive
+                experience.
+              </p>
+              <a href="contact.html" class="btn btn-dark">Send a message</a>
+            </div>
           </div>
         </div>
 
-        <div class="card my-4 p-5" style="width: auto">
-          <img
-            src="images/web-development.png"
-            class="card-img-top mx-auto"
-            alt="web-design"
-          />
-          <div class="card-body">
-            <h5 class="card-title text-center">FRONT-END DEVELOPMENTN</h5>
-            <hr>
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Javascript</li>
-              <li>Bootstrap</li>
-            </ul>
-            <hr>
-            <p class="card-text">
-              Want to turn concepts into dynamic and interactive online reality?
-              With skills in front-end and problem solving skills, Let us create
-              a user-friendly interface and interactive websites that can be
-              accessed all over the internet.
-            </p>
-            <a href="contact.html" class="btn btn-outline-primary">Send a message</a>
+        <div class="col-6">
+          <div class="card h-100 my-4 p-5 card-bg">
+            <img
+              src="images/web-development.png"
+              class="card-img-top mx-auto"
+              alt="web-design"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">FRONT-END DEVELOPMENTN</h5>
+              <hr />
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>Bootstrap</li>
+              </ul>
+              <hr />
+              <p class="card-text">
+                Want to turn concepts into dynamic and interactive online
+                reality? With skills in front-end and problem solving skills,
+                Let us create a user-friendly interface and interactive websites
+                that can be accessed all over the internet.
+              </p>
+              <a href="contact.html" class="btn btn-dark">Send a message</a>
+            </div>
           </div>
         </div>
+      </div>
     </main>
 
     <!-- FOOTER -->
@@ -143,8 +151,10 @@
 
         <form action="submit">
           <p>Newsletter</p>
-          <input type="email" placeholder="Your Email" class="d-block" />
-          <button class="d-block w-100 btn btn-outline-light">Subscribe to newsletter.</button>
+          <input type="email" placeholder="Your Email" class="d-block mb-2" />
+          <button class="d-block w-100 btn btn-outline-light">
+            Subscribe to newsletter.
+          </button>
         </form>
       </section>
 
