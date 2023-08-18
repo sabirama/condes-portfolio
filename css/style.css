@@ -13,6 +13,7 @@ nav a {
 .container {
   background-color: lightgray;
   padding: 1rem;
+  border-radius: 0 2rem 2rem 2rem;
 }
 
 #home a {
@@ -52,6 +53,14 @@ footer img {
   padding-right: 0.25rem;
 }
 
+footer input {
+  background: none;
+}
+
+form input::placeholder {
+  color: white;
+}
+
 .social-links img {
   height: 3rem;
   margin-bottom: 0.5rem;
@@ -75,7 +84,6 @@ footer ol {
   #contact {
     flex-direction: column;
   }
-
   nav {
     display: flex;
     flex-direction: column;
