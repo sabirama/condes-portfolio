@@ -6,6 +6,9 @@ header {
 header img {
   height: 3rem;
 }
+nav a {
+  padding: 1rem;
+}
 
 .container {
   background-color: lightgray;
