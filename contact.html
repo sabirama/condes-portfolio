@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <header>
+      <div class="d-flex justify-content-between mx-5 my-3">
+        <a href="#"><img src="images/my-logo.png" alt="logo" id="logo" /></a>
+
+        <nav>
+          <a href="index.html">HOME</a>
+          <a href="about.html">ABOUT</a>
+          <a href="service.html"> SERVICE </a>
+          <a href="projects.html"> PROJECTS </a>
+          <a href="contact.html"> CONTACTS </a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container d-flex flex-column mx-auto my-5" id="contact-form">
+      <div class="mb-3">
+        <label for="Name" class="form-label mt-2">Full Name</label>
+        <input
+          type="text"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="your name"
+        />
+        <label for="Email" class="form-label mt-2">Email address</label>
+        <input
+          type="email"
+          class="form-control"
+          id="exampleFormControlInput2"
+          placeholder="name@example.com"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label mt-2"
+          >Message or Comments</label
+        >
+        <textarea
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          rows="3"
+        ></textarea>
+      </div>
+      <button type="button" class="btn btn-primary align-self-center mb-5">
+        Submit
+      </button>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <section class="d-flex justify-content-between mx-5" id="contact">
+        <div>
+          <p>Contacts</p>
+          <ol>
+            <li>
+              <a href="tel:+"
+                ><img src="images/phone.png" alt="phone" /> +639950071454</a
+              >
+            </li>
+            <li>
+              <a href="mailto:"
+                ><img src="images/gmail.png" alt="email" />
+                markcondes21@gmail.com</a
+              >
+            </li>
+
+            <li>
+              <a
+                href="https://www.google.com/maps/place/Simsiman,+Iloilo/@11.1143371,122.5391609,17z/data=!4m6!3m5!1s0x33af1279c651ef25:0x7d22f32cd4c5c571!8m2!3d11.1155725!4d122.5401025!16s%2Fg%2F11fyx93ty7?entry=ttu"
+              >
+                <img src="images/address.png" alt="address" />
+                Brgy. Simsiman, Calinog, Iloilo</a
+              >
+            </li>
+          </ol>
+        </div>
+
+        <div class="social-links">
+          <p>Social Links</p>
+          <ol>
+            <li>
+              <a href="https://www.facebook.com/profile.php?id=100089133534583">
+                <img src="images/facebook.png" alt="facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="https://discordapp.com/users/Sabirama#3108">
+                <img src="images/discord.png" alt="disconrd"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/mark-condes-278597281/">
+                <img src="images/linkedin.png" alt="linkedin"
+              /></a>
+            </li>
+          </ol>
+        </div>
+
+        <div>
+          <p>Document Files</p>
+          <ol>
+            <li>
+              <a href="files/doc.pdf"
+                ><img src="images/resume.png" alt="resume" />Personal Profile</a
+              >
+            </li>
+          </ol>
+        </div>
+
+        <form action="submit">
+          <p>Newsletter</p>
+          <input type="email" placeholder="Your Email" class="d-block" />
+          <button class="d-block w-100">Subscribe to newsletter.</button>
+        </form>
+      </section>
+
+      <h5 class="text-center">
+        <small>&COPY; Mark Condes 2023. All Rights Reserved.</small>
+      </h5>
+    </footer>
+  </body>
+</html>

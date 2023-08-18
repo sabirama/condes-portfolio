@@ -1,0 +1,113 @@
+header {
+  background-color: grey;
+  padding: 2rem 0;
+}
+
+header img {
+  height: 3rem;
+}
+
+.container {
+  background-color: lightgray;
+  padding: 1rem;
+}
+
+#home a {
+  margin-left: 4rem;
+  margin-bottom: 4rem;
+}
+
+#home img {
+  width: 30%;
+}
+
+#service img {
+  width: 20rem;
+}
+
+#projects h2 {
+  padding-top: 40px;
+}
+
+.sample-work img {
+  width: 90%;
+  margin-left: 3rem;
+}
+
+footer {
+  background-color: grey;
+  padding: 2rem 0;
+}
+
+footer img {
+  height: 2rem;
+  padding-right: 0.25rem;
+}
+
+.social-links img {
+  height: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+header a,
+footer a,
+footer p,
+footer h1,
+footer h5 {
+  text-decoration: none;
+  color: white;
+}
+
+footer ol {
+  list-style: none;
+}
+
+@media screen and (max-width: 650px) {
+  #nav,
+  #contact {
+    flex-direction: column;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-self: end;
+    text-align: right;
+  }
+
+  #home {
+    flex-direction: column;
+  }
+
+  #home img {
+    width: auto;
+  }
+
+  #service img {
+    width: auto;
+  }
+
+  #projects {
+    margin: 2rem auto;
+  }
+
+  .sample-work {
+    margin-top: 2rem;
+  }
+
+  .sample-work img {
+    margin: auto;
+  }
+
+  form input {
+    width: 100%;
+  }
+
+  #contact-form {
+    max-width: 400px;
+  }
+
+  .social-links ol {
+    display: flex;
+  }
+}
