@@ -11,7 +11,7 @@ header img {
   height: 3rem;
 }
 
-nav p {
+nav img {
   display: none;
 }
 
@@ -99,8 +99,8 @@ footer ol {
     flex-direction: column;
   }
 
-  nav p {
-    display: block;
+  nav img {
+    display: flex;
   }
   nav a {
     display: none;
