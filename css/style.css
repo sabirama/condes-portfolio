@@ -94,7 +94,6 @@ footer ol {
 }
 
 @media screen and (max-width: 650px) {
-  #nav,
   #contact {
     flex-direction: column;
   }
