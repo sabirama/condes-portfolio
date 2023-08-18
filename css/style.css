@@ -164,10 +164,6 @@ footer ol {
     flex-direction: column;
   }
 
-  #home img {
-    width: auto;
-  }
-
   #service img {
     width: 5rem;
   }
