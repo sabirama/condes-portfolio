@@ -19,6 +19,14 @@ header img {
   padding: 0.25rem;
 }
 
+header div {
+  justify-content: space-between;
+}
+nav {
+  margin: auto;
+  margin-right: 0;
+}
+
 nav img {
   display: none;
 }
@@ -31,7 +39,7 @@ nav a {
   background-color: rgba(154, 154, 154, 0.6);
   padding: 1rem;
   border-radius: 0 2rem 2rem 2rem;
-  min-height: 550px;
+  min-height: 620px;
 }
 
 #home a {
@@ -73,8 +81,12 @@ nav a {
 
 .form-inputs input,
 .form-inputs textarea {
-  border: 4px solid rgb(36, 202, 194);
+  border: 4px solid rgba(0, 0, 0, 0.4);
   background: none;
+}
+
+.form-inputs input::placeholder {
+  color: white;
 }
 
 #exampleFormControlTextarea1 {
@@ -123,10 +135,8 @@ footer ol {
   }
 
   nav {
-    background-color: rgba(128, 128, 128, 0.6);
     position: fixed;
     right: 0;
-    height: 100vh;
   }
 
   nav img {
@@ -140,6 +150,10 @@ footer ol {
     text-align: right;
   }
 
+  nav:hover {
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.6);
+  }
   nav:hover a {
     display: flex;
   }
