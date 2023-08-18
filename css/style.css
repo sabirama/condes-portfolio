@@ -136,7 +136,7 @@ footer ol {
 
   nav {
     position: fixed;
-    right: 0;
+    right: 4rem;
   }
 
   nav img {
@@ -146,12 +146,10 @@ footer ol {
   nav a {
     display: none;
     flex-direction: column;
-    align-self: end;
     text-align: right;
   }
 
   nav:hover {
-    height: 100vh;
     background-color: rgba(128, 128, 128, 0.6);
   }
   nav:hover a {
